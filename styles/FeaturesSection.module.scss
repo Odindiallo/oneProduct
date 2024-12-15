@@ -1,9 +1,11 @@
+@import './SectionHeader.module.scss';
+
 .features {
-  padding: 4rem 1.5rem;
-  background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+  padding: 6rem 2rem;
+  background: #ffffff;
 
   .container {
-    max-width: 1140px;
+    max-width: 1400px;
     margin: 0 auto;
     text-align: center;
 

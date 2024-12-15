@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import HeroSection from "../components/HeroSection";
 import FeaturesSection from "../components/FeaturesSection";
 import ProductDemo from "../components/ProductDemo";
+import PurchaseSection from '../components/PurchaseSection';
 import TestimonialsSection from "../components/TestimonialsSection";
 import Footer from "../components/Footer";
 
@@ -20,6 +21,7 @@ export default function Home() {
         <HeroSection />
         <FeaturesSection />
         <ProductDemo />
+        <PurchaseSection />
         <TestimonialsSection />
       </main>
       <Footer />
