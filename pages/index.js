@@ -2,25 +2,27 @@ import Head from "next/head";
 import Nav from "../components/Nav";
 import HeroSection from "../components/HeroSection";
 import FeaturesSection from "../components/FeaturesSection";
+import ProductDemo from "../components/ProductDemo";
 import TestimonialsSection from "../components/TestimonialsSection";
 import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
-        <title>OneProduct - Your All-in-One Solution</title>
-        <meta name="description" content="OneProduct - The only tool you'll ever need. Simple, powerful, and designed for you." />
+        <title>OneProduct - Transform Your Workflow</title>
+        <meta name="description" content="OneProduct - The all-in-one solution for your needs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Nav />
-      <main className="main">
+      <main>
         <HeroSection />
         <FeaturesSection />
+        <ProductDemo />
         <TestimonialsSection />
-        <Footer />
       </main>
-    </>
+      <Footer />
+    </div>
   );
 }
